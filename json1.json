@@ -1,13 +1,11 @@
 var employee = `
-  
-    [
-      {
+     [ {
         "UniqueID": "234",
         "FirstName": "kath",
         "LastName": "daea",
         "Emailaddress": "saroklrr.gmail.com",
         "JobTitle": "Teacher",
-        "Salary":
+        "Salary": "1565"
       },
       {
         "UniqueID": "19658",
@@ -88,9 +86,7 @@ var employee = `
         "Emailaddress": "fujita.gmail.com",
         "JobTitle": "developer",
         "Salary": "5000"
-      },
-    ]
-  
-}` 
+      }
+    ]`;
 
     

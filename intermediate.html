@@ -1,21 +1,46 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8" />
     <title></title>
-</head>
-<body>
-    <div id="result"></div>
+  </head>
+  <body>
+    <table id="content"></table>
     <script type="text/javascript" src="json1.json"></script>
-    
-       
-        var i = 0
-        document.writeln("<table border='1'>");
-        for (i = 0; i < employee.length; i++) {
-           
-            document.writeln("<th>Employee unique ID</th>", "<th>lastname</th>", "<th>Email- ID</th>", "<th>jobtitle</th>", "<th>Salary</th>");
-            document.writeln("<tr><td> + employee.Pascal[i].UniqueID </td>, <td> + employee.Pascal[i].FirstName + "</td> </tr>");
-    
-</body>
+
+    <script>
+      var employee2 = JSON.parse(employee);
+      //   console.table(employee2);
+      //   document.writeln("<table border='1'><tr>");
+      var table = document.getElementById("content");
+      table.innerHTML = `<th>Employee unique ID</th>
+        <th>firstname</th>
+        <th>lastname</th>
+        <th>Email- ID</th>
+        <th>jobtitle</th>
+        <th>Salary</th>`;
+
+      for (let i = 0; i < employee2.length; i++) {
+        table.innerHTML += `<tr><td>
+          ${employee2[i].UniqueID}
+          </td><td>
+          ${employee2[i].FirstName}
+          </td>
+          <td>
+          ${employee2[i].LastName}
+          </td>
+          <td>
+          ${employee2[i].Emailaddress}
+          </td>
+          <td>
+          ${employee2[i].JobTitle}
+          </td>
+          <td>
+          ${employee2[i].Salary}
+          </td></tr>`;
+      }
+      //   document.writeIn("</tr></table>");
+    </script>
+  </body>
 </html>
