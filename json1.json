@@ -1,0 +1,19 @@
+{
+  var employees
+  = `
+  {
+    [
+      {
+        "UniqueID": "234",
+        "FirstName": "kath",
+        "LastName": "daea",
+        "Emailaddress": "saroklrr.gmail.com",
+        "JobTitle": "Teacher",
+        "Salary":
+      }
+    ]
+  }
+  ´
+} 
+
+    
