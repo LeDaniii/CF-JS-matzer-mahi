@@ -1,7 +1,5 @@
-{
-  var employees
-  = `
-  {
+var employee = `
+  
     [
       {
         "UniqueID": "234",
@@ -10,10 +8,89 @@
         "Emailaddress": "saroklrr.gmail.com",
         "JobTitle": "Teacher",
         "Salary":
-      }
+      },
+      {
+        "UniqueID": "19658",
+        "FirstName": "Dani",
+        "LastName": "Mu",
+        "Emailaddress": "asdsad.gmail.com",
+        "JobTitle": "Dunnoknow",
+        "Salary": "2000"
+      },
+      {
+        "UniqueID": "19854",
+        "FirstName": "Steaf",
+        "LastName": "clown",
+        "Emailaddress": "superclown.gmail.com",
+        "JobTitle": "funnyperson",
+        "Salary": "15000"
+      },
+      {
+        "UniqueID": "15694",
+        "FirstName": "John",
+        "LastName": "doew",
+        "Emailaddress": "jonny.gmail.com",
+        "JobTitle": "Space Pilot",
+        "Salary": "8000"
+      },
+      {
+        "UniqueID": "2345645",
+        "FirstName": "Denise",
+        "LastName": "Super",
+        "Emailaddress": "bestperson.gmail.com",
+        "JobTitle": "Ceo",
+        "Salary": "18000"
+      },
+      {
+        "UniqueID": "23056404",
+        "FirstName": "via",
+        "LastName": "call",
+        "Emailaddress": "callcenter.gmail.com",
+        "JobTitle": "caller",
+        "Salary": "1800"
+      },
+      {
+        "UniqueID": "236545414",
+        "FirstName": "Dani",
+        "LastName": "Devito",
+        "Emailaddress": "devitos.gmail.com",
+        "JobTitle": "actor",
+        "Salary": "6000"
+      },
+      {
+        "UniqueID": "234564465",
+        "FirstName": "peter",
+        "LastName": "hello",
+        "Emailaddress": "peter.gmail.com",
+        "JobTitle": "doctor",
+        "Salary": "3700"
+      },
+      {
+        "UniqueID": "2365414",
+        "FirstName": "pia",
+        "LastName": "kuku",
+        "Emailaddress": "kuku.gmail.com",
+        "JobTitle": "secretary",
+        "Salary": "3000"
+      },
+      {
+        "UniqueID": "236564654",
+        "FirstName": "umiko",
+        "LastName": "ahagon",
+        "Emailaddress": "ahagon.gmail.com",
+        "JobTitle": "programmer",
+        "Salary": "32000"
+      },
+      {
+        "UniqueID": "541651",
+        "FirstName": "sayaka",
+        "LastName": "fujita",
+        "Emailaddress": "fujita.gmail.com",
+        "JobTitle": "developer",
+        "Salary": "5000"
+      },
     ]
-  }
-  ´
-} 
+  
+}` 
 
     
